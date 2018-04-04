@@ -1,3 +1,15 @@
+$( document ).ready(function() {
+  var msg = {
+    messageType: "SETTINGS",
+    options: {
+      "width": 600,
+      "height": 400
+    }
+  };
+  console.log(msg);
+  parent.postMessage( msg, "*" );
+});
+
 // check for browser support
 if ( window.addEventListener ) {
   // onload
