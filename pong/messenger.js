@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   var msg = {
-    messageType: "SETTINGS",
+    messageType: "SETTING",
     options: {
       "width": 600,
       "height": 400
